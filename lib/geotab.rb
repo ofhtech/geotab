@@ -18,6 +18,8 @@ require "geotab/log_record"
 require "geotab/status_datum"
 require "geotab/exceptions"
 
+require "geotab/trip"
+
 module Geotab
   def self.config
     yield self
